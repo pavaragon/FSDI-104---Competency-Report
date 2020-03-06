@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Mortal Kombat</title>
+</head>
+<body>
+
+    <header>
+        <img src="img/headerimg.png" alt="">
+    </header>
+ 
+    <main>
+        <div class="wrap">
+
+            <div class="square">
+                <h2>Scorpion</h2>
+                <div id="imgc1"></div>
+                <br>
+                <button onclick='c1.attack(c2, select())'>
+                    Attack
+                </button>
+                <p id="c1">
+                    Information
+                </p>
+
+            </div>
+
+            <div class="square">
+                <h2>Subzero</h2>
+                <div id="imgc2"></div>
+                <br>
+                <button onclick='c2.attack(c1, select())'>
+                    Attack
+                </button >
+                <p id="c2">
+                    Information
+                </p>
+            </div>
+
+        </div>
+
+        <div id="console" class="console">
+            Actions
+        </div>
+    </main>
+
+    <footer>
+        All the rights reserved &copy; Pavel Aragon
+    </footer>
+
+    <script src="script.js"> </script>
+
+</body>
+</html>
